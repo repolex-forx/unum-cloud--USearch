@@ -1,0 +1,25 @@
+[2026-11-23T03:41:38Z] === ENRICH ITERATION 1 START | repo=unum-cloud/USearch sha=9fd6b011 ===
+[2026-11-23T03:41:38Z] [iter=1] PHASE START: enrich repo=unum-cloud/USearch sha=9fd6b011 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9fd6b011-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9fd6b0115dcdd0016e037fb5335f36824dd02090.nq.gz
+[2026-11-23T03:41:51Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=81 MB
+[2026-11-23T03:42:03Z] [iter=1] AST store loaded triples=1572958 load_secs=12 mem_mb=908 MB
+[2026-11-23T03:42:03Z] [iter=1] Step 2: Finding LSP targets mem_mb=908 MB
+[2026-11-23T03:42:07Z] [iter=1] LSP targets found call_sites=11909 imports=207 extends=14 implements=21 secs=4
+[2026-11-23T03:42:10Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=908 MB
+[2026-11-23T03:42:19Z] [iter=1] Position index built positions=101007 nodes_with_types=126458 secs=10 mem_mb=908 MB
+[2026-11-23T03:42:19Z] [iter=1] Step 3: Starting LSP resolution mem_mb=908 MB already_completed_types=[] already_completed_files=0
+[2026-11-23T03:42:19Z] [iter=1] Resolving target type target_type=call_site count=11909
+[2026-11-23T03:42:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=include/usearch/index_plugins.hpp
+[2026-11-23T03:46:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=1 resolved=473 errors=0 current=python/lib.cpp
+[2026-11-23T03:55:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=3 resolved=1574 errors=0 current=cpp/bench.cpp
+[2026-11-23T03:56:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.1 files_done=4 resolved=1764 errors=0 current=java/cloud/unum/usearch/cloud_unum_usearch_Index.cpp
+[2026-11-23T04:00:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.0 files_done=6 resolved=2112 errors=0 current=include/usearch/index_dense.hpp
+[2026-11-23T04:04:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.6 files_done=7 resolved=2556 errors=0 current=objc/include/USearchObjective.h
+[2026-11-23T04:05:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.1 files_done=10 resolved=2767 errors=0 current=rust/lib.cpp
+[2026-11-23T04:06:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.0 files_done=13 resolved=2912 errors=0 current=wolfram/lib.cpp
+[2026-11-23T04:07:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.7 files_done=18 resolved=2975 errors=0 current=python/scripts/bench_cluster.py
+[2026-11-23T04:09:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.5 files_done=21 resolved=3317 errors=0 current=python/scripts/test_gil_release.py
+[2026-11-23T04:09:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.2 files_done=24 resolved=3526 errors=0 current=python/usearch/eval.py
+[2026-11-23T04:11:41Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=25 new_files_this_iter=25 mem_mb=908 MB
+[2026-11-23T04:11:41Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/9fd6b0115dcdd0016e037fb5335f36824dd02090.nq.gz triples=38721
+[2026-11-23T04:11:42Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-23T04:11:42Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1803 elapsed_min=30.1 files_completed=25
