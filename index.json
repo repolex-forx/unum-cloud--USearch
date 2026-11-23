@@ -1,0 +1,26 @@
+{
+  "org": "unum-cloud",
+  "repo": "USearch",
+  "versions": [
+    {
+      "commit": "9fd6b0115dcdd0016e037fb5335f36824dd02090",
+      "tag": "v2.25.3",
+      "parsed_at": "2026-11-23T04:53:16.408888+00:00"
+    },
+    {
+      "commit": "cc23bbaf21ef52313c5a495adbc40cbd733cdcfb",
+      "tag": "v2.26.0",
+      "parsed_at": "2026-11-23T01:34:20.557435+00:00"
+    },
+    {
+      "commit": "0ef97e13e9cad0fc91db607973474f8952be75b6",
+      "tag": "v2.26.1",
+      "parsed_at": "2026-11-22T19:23:53.624875+00:00"
+    },
+    {
+      "commit": "f91fe5bc000222aa1af6e91daf78c2bb20b0c90e",
+      "tag": "v2.26.2",
+      "parsed_at": "2026-11-22T13:12:15.918296+00:00"
+    }
+  ]
+}
