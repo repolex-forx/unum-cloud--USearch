@@ -1,0 +1,7 @@
+[2026-11-23T03:36:14Z] === AST ITERATION 1 START | repo=unum-cloud/USearch sha=9fd6b011 ===
+[2026-11-23T03:36:14Z] [iter=1] PHASE START: ast repo=unum-cloud/USearch sha=9fd6b011
+[2026-11-23T03:36:14Z] [iter=1] Building AST aggregate chunks
+[2026-11-23T03:39:28Z] [iter=1] AST chunks built count=1 triples=1572958
+[2026-11-23T03:39:28Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/9fd6b0115dcdd0016e037fb5335f36824dd02090/.complete
+[2026-11-23T03:39:28Z] [iter=1] PHASE END: ast elapsed_s=194 elapsed_min=3.2
+[2026-11-23T03:39:28Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
