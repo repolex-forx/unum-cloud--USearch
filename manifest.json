@@ -817,6 +817,402 @@
       ],
       "ast": [
         "aggregate/ast/9fd6b0115dcdd0016e037fb5335f36824dd02090/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/9fd6b0115dcdd0016e037fb5335f36824dd02090.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "junit:junit",
+          "ecosystem": "MAVEN",
+          "version": "4.13.2",
+          "githubOrg": "junit-team",
+          "githubRepo": "junit4",
+          "githubUrl": "https://github.com/junit-team/junit4",
+          "source": "build_file:build.gradle"
+        },
+        {
+          "packageName": "bindings",
+          "ecosystem": "NPM",
+          "version": "1.5.0",
+          "githubOrg": "TooTallNate",
+          "githubRepo": "node-bindings",
+          "githubCommit": "bcdc7cadf839ef84c9bd9e21c697f2a727b2b1d3",
+          "githubTag": "1.5.0",
+          "githubUrl": "git://github.com/TooTallNate/node-bindings.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "node-addon-api",
+          "ecosystem": "NPM",
+          "version": "8.5.0",
+          "githubOrg": "nodejs",
+          "githubRepo": "node-addon-api",
+          "githubCommit": "6babc960154752f686a7dca8e712991a976a754b",
+          "githubTag": "v8.5.0",
+          "githubUrl": "git://github.com/nodejs/node-addon-api.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "node-gyp-build",
+          "ecosystem": "NPM",
+          "version": "4.8.4",
+          "githubOrg": "prebuild",
+          "githubRepo": "node-gyp-build",
+          "githubCommit": "6822ec52423a2b3ed48ef8960a9fe05902e9e1a3",
+          "githubTag": "v4.8.4",
+          "githubUrl": "git+https://github.com/prebuild/node-gyp-build.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/bindings",
+          "ecosystem": "NPM",
+          "version": "1.5.5",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/node",
+          "ecosystem": "NPM",
+          "version": "24.3.0",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "node-gyp",
+          "ecosystem": "NPM",
+          "version": "11.4.2",
+          "githubOrg": "nodejs",
+          "githubRepo": "node-gyp",
+          "githubCommit": "289fd574b2c9da120455a158b54ade326519e071",
+          "githubTag": "v11.4.2",
+          "githubUrl": "git://github.com/nodejs/node-gyp.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "prebuildify",
+          "ecosystem": "NPM",
+          "version": "6.0.1",
+          "githubOrg": "prebuild",
+          "githubRepo": "prebuildify",
+          "githubCommit": "7c86817913b029cda87268a113718f2523d6b40b",
+          "githubTag": "v6.0.1",
+          "githubUrl": "git+https://github.com/prebuild/prebuildify.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript",
+          "ecosystem": "NPM",
+          "version": "5.9.2",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "githubCommit": "5be33469d551655d878876faa9e30aa3b49f8ee9",
+          "githubTag": "v5.9.2",
+          "githubUrl": "git+https://github.com/microsoft/TypeScript.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "cxx",
+          "ecosystem": "CARGO",
+          "version": "1.0.194",
+          "githubOrg": "dtolnay",
+          "githubRepo": "cxx",
+          "githubCommit": "255e7afa8fbebfb5ac59d4749fd5ac981a6b68ba",
+          "githubTag": "1.0.194",
+          "githubUrl": "https://github.com/dtolnay/cxx",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "numkong",
+          "ecosystem": "CARGO",
+          "version": ">=7.5.0",
+          "githubOrg": "ashvardanian",
+          "githubRepo": "NumKong",
+          "githubUrl": "https://github.com/ashvardanian/NumKong",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "fork_union",
+          "ecosystem": "CARGO",
+          "version": "2.1.1",
+          "githubOrg": "ashvardanian",
+          "githubRepo": "fork_union",
+          "githubCommit": "344a7498dc56adaf4336f83e2a00da0502298dd4",
+          "githubTag": "v2.1.1",
+          "githubUrl": "https://github.com/ashvardanian/fork_union",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "acc5f246d3338ffea40aa0f25a46f84d6d19db8d",
+          "githubTag": "0.10.0",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand_chacha",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubCommit": "acc5f246d3338ffea40aa0f25a46f84d6d19db8d",
+          "githubTag": "0.10.0",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand_distr",
+          "ecosystem": "CARGO",
+          "version": "0.6.0",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand_distr",
+          "githubCommit": "61d08aa933df68cf8004aa919ed608809be0f4b1",
+          "githubTag": "0.6.0",
+          "githubUrl": "https://github.com/rust-random/rand_distr",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cxx-build",
+          "ecosystem": "CARGO",
+          "version": "1.0.194",
+          "githubOrg": "dtolnay",
+          "githubRepo": "cxx",
+          "githubCommit": "255e7afa8fbebfb5ac59d4749fd5ac981a6b68ba",
+          "githubTag": "1.0.194",
+          "githubUrl": "https://github.com/dtolnay/cxx",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "os",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "builtins",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.5",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+          "githubTag": "v2.5.5",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/numpy/_core/numeric.py"
+        },
+        {
+          "packageName": "math",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/tqdm/std.py"
+        },
+        {
+          "packageName": "typing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "genericpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "argparse",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "time",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "_collections_abc",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "posixpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "ntpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "subprocess",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "platform",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "json",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "lib.es2015.core.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.es5.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.es2020.number.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.es2020.bigint.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.es2017.object.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.es2015.iterable.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.es2016.array.include.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.es2015.symbol.wellknown.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "lib.dom.d.ts",
+          "ecosystem": "NPM",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "source": "stdlib:typescript_lib"
+        },
+        {
+          "packageName": "dataclasses",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "sys",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "sqlite3",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "struct",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "collections",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        }
       ]
     }
   ],

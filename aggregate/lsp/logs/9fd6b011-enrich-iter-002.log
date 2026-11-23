@@ -1,0 +1,31 @@
+[2026-11-23T04:14:09Z] === ENRICH ITERATION 2 START | repo=unum-cloud/USearch sha=9fd6b011 ===
+[2026-11-23T04:14:09Z] [iter=2] PHASE START: enrich repo=unum-cloud/USearch sha=9fd6b011 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9fd6b011-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9fd6b0115dcdd0016e037fb5335f36824dd02090.nq.gz
+[2026-11-23T04:14:21Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=82 MB
+[2026-11-23T04:14:38Z] [iter=2] AST store loaded triples=1572958 load_secs=17 mem_mb=909 MB
+[2026-11-23T04:14:38Z] [iter=2] Step 2: Finding LSP targets mem_mb=909 MB
+[2026-11-23T04:14:41Z] [iter=2] LSP targets found call_sites=11909 imports=207 extends=14 implements=21 secs=3
+[2026-11-23T04:14:43Z] [iter=2] Loaded checkpoint partial graph triples=38721
+[2026-11-23T04:14:43Z] [iter=2] Primed enclosing-def cache from persisted triples entries=713
+[2026-11-23T04:14:45Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=909 MB
+[2026-11-23T04:14:52Z] [iter=2] Position index built positions=101007 nodes_with_types=126458 secs=7 mem_mb=909 MB
+[2026-11-23T04:14:52Z] [iter=2] Step 3: Starting LSP resolution mem_mb=909 MB already_completed_types=[] already_completed_files=25
+[2026-11-23T04:14:52Z] [iter=2] Resolving target type target_type=call_site count=11909
+[2026-11-23T04:15:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=0.9 files_done=0 resolved=0 errors=0 current=python/scripts/test_index.py
+[2026-11-23T04:15:34Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=6 resolved=207 errors=0 current=setup.py
+[2026-11-23T04:16:09Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=13 resolved=407 errors=0 current=.cmake-format.py
+[2026-11-23T04:20:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.0 files_done=15 resolved=407 errors=23818 current=golang/lib_test.go
+[2026-11-23T04:21:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=16 resolved=878 errors=23818 current=golang/lib.go
+[2026-11-23T04:22:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=18 resolved=1352 errors=23818 current=javascript/usearch.test.js
+[2026-11-23T04:22:16Z] [iter=2] Target type resolved target_type=call_site resolved=1428 errors=35727 secs=444 mem_mb=909 MB
+[2026-11-23T04:22:16Z] [iter=2] Resolving target type target_type=import_statement count=207
+[2026-11-23T04:24:17Z] [iter=2] HEARTBEAT target_type=import_statement elapsed_min=10.1 files_done=0 resolved=0 errors=207 current=python/scripts/bench_index.py
+[2026-11-23T04:26:27Z] [iter=2] Target type resolved target_type=import_statement resolved=50 errors=621 secs=251 mem_mb=909 MB
+[2026-11-23T04:26:27Z] [iter=2] Resolving target type target_type=extends_clause count=14
+[2026-11-23T04:26:28Z] [iter=2] HEARTBEAT target_type=extends_clause elapsed_min=12.3 files_done=0 resolved=0 errors=0 current=python/usearch/compiled.pyi
+[2026-11-23T04:26:28Z] [iter=2] Target type resolved target_type=extends_clause resolved=3 errors=0 secs=2 mem_mb=909 MB
+[2026-11-23T04:26:28Z] [iter=2] Resolving target type target_type=implements_clause count=21
+[2026-11-23T04:28:29Z] [iter=2] Target type resolved target_type=implements_clause resolved=0 errors=21 secs=121 mem_mb=909 MB
+[2026-11-23T04:50:34Z] [iter=2] Step 5: Writing final enrichment file triples=86522
+[2026-11-23T04:50:35Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/9fd6b0115dcdd0016e037fb5335f36824dd02090.nq.gz size_kb=1852
+[2026-11-23T04:50:35Z] [iter=2] Checkpoint cleared (enrichment complete)
+[2026-11-23T04:50:35Z] [iter=2] PHASE END: enrich elapsed_s=2186 elapsed_min=36.4 total_triples=86522
